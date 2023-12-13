@@ -1,7 +1,6 @@
 <div class="sidebar">
-    <div class="navbar-item">Section 1</div>
-    <div class="navbar-item">Section 2</div>
-    <div class="navbar-item">Section 3</div>
-    <div class="navbar-item">Section 4</div>
-    <div class="navbar-item">Section 5</div>
+    <a href="/" style="text-decoration:none"><div class="navbar-item">Home</div></a>
+    <a href="/science"><div class="navbar-item">Science</div></a>
+    <a href="/software"><div class="navbar-item">Software</div></a>
+    <a href="/blog"><div class="navbar-item">Thoughts</div></a>
 </div>

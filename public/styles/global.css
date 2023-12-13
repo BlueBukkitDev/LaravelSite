@@ -54,3 +54,17 @@ p {
     font-size: 18px;
     padding: 30px;
 }
+
+/*The any-link and webkit stuff is required, since with just the
+below a.navbar-item stuff it won't override the browser webkit. */
+a:any-link {
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+a:-moz-any-link {
+    text-decoration: none;
+}
+a.navbar-item:any-link, a.navbar-item:visited, a.navbar-item:active {color:#909090aa}
+a.navbar-item:hover {color: #909090}
